@@ -1,23 +1,23 @@
 /* ==================== DESIGN SYSTEM & VARS ==================== */
 :root {
-    --bg-primary: #f8fafc;
+    --bg-primary: #f4f6fa;
     --bg-secondary: #ffffff;
-    --text-primary: #0f172a;
-    --text-secondary: #475569;
-    --text-muted: #94a3b8;
+    --text-primary: #0a1931;
+    --text-secondary: #4a5568;
+    --text-muted: #8a9bb4;
     
-    /* Banking Navy Blue */
-    --primary: #0f1c3f;
-    --primary-light: #1e293b;
-    --primary-hover: #1e3a8a;
-    --primary-glow: rgba(15, 28, 63, 0.15);
+    /* Banking Blue Theme */
+    --primary: #0a3370;
+    --primary-light: #15458c;
+    --primary-hover: #07224d;
+    --primary-glow: rgba(10, 51, 112, 0.15);
     
-    /* Gold Theme Colors */
-    --gold: #d4af37;
-    --gold-dark: #b8860b;
-    --gold-light: #f3e5ab;
-    --gold-gradient: linear-gradient(135deg, #f39c12 0%, #d4af37 50%, #f1c40f 100%);
-    --gold-glow: rgba(212, 175, 55, 0.3);
+    /* Blue/Teal accents to replace Gold */
+    --gold: #0056b3;
+    --gold-dark: #004085;
+    --gold-light: #e3f2fd;
+    --gold-gradient: linear-gradient(135deg, #15458c 0%, #0056b3 50%, #007bff 100%);
+    --gold-glow: rgba(0, 86, 179, 0.25);
 
     /* UI State Colors */
     --success: #10b981;
@@ -27,15 +27,15 @@
     --danger-hover: #dc2626;
     
     /* Borders & Shadows */
-    --border-color: #e2e8f0;
-    --border-radius-sm: 6px;
-    --border-radius-md: 12px;
-    --border-radius-lg: 20px;
+    --border-color: #cbdcf0;
+    --border-radius-sm: 8px;
+    --border-radius-md: 14px;
+    --border-radius-lg: 24px;
     
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    --shadow-gold: 0 10px 20px -3px rgba(212, 175, 55, 0.2);
+    --shadow-sm: 0 2px 4px 0 rgba(10, 51, 112, 0.04);
+    --shadow-md: 0 4px 12px -2px rgba(10, 51, 112, 0.08), 0 2px 6px -1px rgba(10, 51, 112, 0.04);
+    --shadow-lg: 0 12px 24px -4px rgba(10, 51, 112, 0.12), 0 4px 8px -2px rgba(10, 51, 112, 0.06);
+    --shadow-gold: 0 10px 20px -3px rgba(0, 86, 179, 0.15);
     
     /* Fonts */
     --font-family: 'Outfit', 'Noto Sans Gujarati', sans-serif;
@@ -279,7 +279,7 @@ input[readonly] {
     align-items: center;
     justify-content: center;
     margin: 0 auto 15px auto;
-    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4);
+    box-shadow: 0 4px 15px rgba(0, 86, 179, 0.4);
 }
 
 .bank-logo-icon {
@@ -304,7 +304,7 @@ input[readonly] {
 .gold-badge {
     display: inline-block;
     padding: 4px 12px;
-    background: rgba(212, 175, 55, 0.15);
+    background: rgba(0, 86, 179, 0.15);
     border: 1px solid var(--gold);
     color: var(--gold);
     font-size: 12px;
@@ -474,9 +474,9 @@ input[readonly] {
 
 .nav-item.active {
     background: var(--gold-gradient);
-    color: #0f1c3f;
+    color: white;
     font-weight: 700;
-    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.25);
+    box-shadow: 0 4px 12px rgba(0, 86, 179, 0.25);
 }
 
 .nav-divider {
@@ -1054,14 +1054,14 @@ input[readonly] {
     padding: 8px 16px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(212, 175, 55, 0.3);
+    border: 1px solid rgba(0, 86, 179, 0.3);
 }
 
 .net-val-main {
     font-size: 24px;
     font-weight: 800;
     color: var(--gold);
-    text-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+    text-shadow: 0 0 10px rgba(0, 86, 179, 0.2);
 }
 
 .form-actions-row {
